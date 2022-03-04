@@ -51,7 +51,10 @@ void printArray(int arr[], int size)
 int main()
 {
 	int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
-	int n = sizeof(arr) / sizeof(arr[0]);
+	// int n = sizeof(arr) / sizeof(arr[0]);
+	int n;
+	cout<<"Enter rotation Value";
+	cin>>n;
 
 	// Function calling
 	int d;
