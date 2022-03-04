@@ -53,7 +53,8 @@ int main()
 	int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
 	// int n = sizeof(arr) / sizeof(arr[0]);
 	int n;
-	cout<<"Enter rotation Value";
+	// its always good to take greate array value than the rotation.
+	cout<<"Enter rotation Value of array";
 	cin>>n;
 
 	// Function calling
