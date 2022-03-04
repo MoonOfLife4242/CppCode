@@ -25,15 +25,15 @@ int main() {
 	cin>>x;
 	cout<<"Enter the second number";
 	cin>>y;
-		cout<<"the second number is "<<x<<endl;
-		cout<<"the second number is "<<y<<endl;
+		cout<<"the first not swapped number is "<<x<<endl;
+		cout<<"the second not swapped number is "<<y<<endl;
 
 
 	x = x+y;
 	y = x - y;
 	x = x - y;
-	cout<<" now the first value is : "<<x<<endl;
-	cout<<"now the second valueis : " <<y<<endl;
+	cout<<" now the swapped first value is : "<<x<<endl;
+	cout<<"now the swapped second valueis : " <<y<<endl;
  return 0;
 	
 }
