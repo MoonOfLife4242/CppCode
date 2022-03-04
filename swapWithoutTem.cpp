@@ -4,22 +4,6 @@ using namespace std;
 
 int main() {
 
- // int arr[] = {23,34,54,78};
- // int n = sizeof(arr)/sizeof(arr[0]);
-
- // for (int i = 0; i <= 2; ++i)
- // {
- // 	arr[i] = arr[i+1];
- // 	arr[i+1] = arr[i-1];
- // 	arr[i] = arr[i-1];
-
- // 	cout<<"swapped data" <<arr[i]<<endl;
- // }
- // for (int i = 0; i < sizeof(arr); ++i)
- // {
- // 	cout<<arr[i];
- // }
-
 	int x,y;
 	cout<<"Enter the first number " <<endl;
 	cin>>x;
