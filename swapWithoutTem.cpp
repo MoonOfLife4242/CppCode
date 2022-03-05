@@ -1,6 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+int swap(int x , int y ) {
+	x = x + y;
+	y = x - y;
+	x = x - y;
+
+	cout<<" now the swapped first value is : "<<x<<endl;
+	cout<<"now the swapped second valueis : " <<y<<endl;
+	
+ return 0;
+}
 
 int main() {
 
@@ -18,6 +28,10 @@ int main() {
 	x = x - y;
 	cout<<" now the swapped first value is : "<<x<<endl;
 	cout<<"now the swapped second valueis : " <<y<<endl;
+
+	// swappint using a function
+	swap(x,y);
+	
  return 0;
 	
 }
