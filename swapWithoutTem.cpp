@@ -5,9 +5,6 @@ int swap(int x , int y ) {
 	x = x + y;
 	y = x - y;
 	x = x - y;
-
-	cout<<" now the swapped first value is : "<<x<<endl;
-	cout<<"now the swapped second valueis : " <<y<<endl;
 	
  return 0;
 }
