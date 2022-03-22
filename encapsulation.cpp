@@ -26,7 +26,7 @@ int main() {
 	Em.setSalary(8000);
 	int salary = Em.getSalary();
 
-	cout<<salary;
+	cout<<"Salaru is: " <<salary;
 	
 	return 0;
 }
